@@ -41,10 +41,10 @@ std::vector<double> matmul2(const std::vector<double>& mat1, const std::vector<d
 	std::vector<double> output(mat1.size());
 	long long i = 0;
 	for (int r1 = 0; r1 < row_len; r1++)
-		for (int Ñ2 = 0; Ñ2 < row_len; Ñ2++) {
+		for (int ñ2 = 0; ñ2 < row_len; ñ2++) {
 			double summ = 0;
 			for (int x = 0; x < row_len; x++)
-				summ += mat1[row_len * r1 + x] * mat2[row_len * x + Ñ2];
+				summ += mat1[row_len * r1 + x] * mat2[row_len * x + ñ2];
 			output[i] = summ;
 			i++;
 		}
